@@ -9,11 +9,38 @@ Mafia Manager is a desktop-based game developed using C# and .NET Framework 8, c
 
 Developed by a team of four, contributions spanned across various facets of the game, with specific focus on graphics, music implementation, and the timing of frame openings to ensure a fluid and engaging user experience.
 
+# How to Play Mafia Manager
+
+Mafia Manager brings the classic game of Mafia to your desktop, where players are assigned roles and must work with or against each other to fulfill their objectives. The game is played in cycles of day and night, with different actions taking place in each.
+
+## Game Setup
+
+1. **Starting the Game** : Launch Mafia Manager from your desktop.
+2. **Creating a Game** : From the main menu, select "New Game" to start a new session.
+3. **Selecting Players** : Choose the number of players participating. The game will automatically assign roles but can be adjusted manually if preferred
+
+## Roles
+
+Each player is assigned one of the following roles, each with its unique objectives and abilities:
+
+* **Mafia** : Aim to eliminate the townspeople without being caught.
+* **Townspeople (Citizens)** : Work together to identify and vote out the Mafia members.
+* **Doctor** : Can choose one person each night to save, potentially blocking a Mafia kill.
+* **Sheriff** : Can investigate one person each night to determine if they are Mafia.
+
 ## Features
 
-### Main Window
 
-This is the main Window where you get to choose how many players should involve in the game  and also if there should be a Doctor and a Sheriff role 
+### Main Window Interface
+
+The main window is your hub for game setup and role assignment. Here's how to use it:
+
+* **Selecting Players** : Use the slider or input field to determine the number of players in the game.
+* **Enabling Special Roles** :
+* **Sheriff Role** : Check the box labeled "Sheriff" to include the Sheriff role in the game. The Sheriff can investigate one player each night to learn their true role.
+* **Doctor Role** : Check the box labeled "Doctor" to add the Doctor role to your game. The Doctor can choose one person each night to save, potentially preventing the Mafia from eliminating them.
+
+Ensure these roles are enabled or disabled as per your game preferences before starting the game.
 
 ![1707081041665](image/README/1707081041665.png)
 
