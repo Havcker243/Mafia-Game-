@@ -1,0 +1,160 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="70SdiscopersonaluseBold-w14z2.otf" />
+    <None Remove="AeroboostPersonalUse-nR8p4.ttf" />
+    <None Remove="Doctor-healing-.wav" />
+    <None Remove="Font1.ttf" />
+    <None Remove="Font2.ttf" />
+    <None Remove="Images\download %281%29.jpg" />
+    <None Remove="Images\download%282%29.jpg" />
+    <None Remove="Images\download%282%29.png" />
+    <None Remove="Images\images %281%29.jpg" />
+    <None Remove="Images\images.jpg" />
+    <None Remove="Images\images.png" />
+    <None Remove="Images\Mafia.jpg" />
+    <None Remove="Images\night1.jpg" />
+    <None Remove="Images\night2.jpg" />
+    <None Remove="Images\night3.png" />
+    <None Remove="Images\StartPage.png" />
+    <None Remove="healing.wav" />
+    <None Remove="Images\village1.jpg" />
+    <None Remove="Images\village2.jpg" />
+    <None Remove="Images\village3.jpg" />
+    <None Remove="night3.png" />
+    <None Remove="Overya-3zPYz.ttf" />
+    <None Remove="village2.jpg" />
+    <None Remove="village3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\night1.jpg" />
+    <Resource Include="Images\night2.jpg" />
+    <Resource Include="Images\night3.png" />
+    <Resource Include="Images\village1.jpg" />
+    <Resource Include="Images\village2.jpg" />
+    <Resource Include="Images\village3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="SpeechLib">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>5</VersionMajor>
+      <Guid>c866ca3a-32f7-11d2-9602-00c04f8ee628</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="{215d64d2-031c-33c7-96e3-61794cd1ee61}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>215d64d2-031c-33c7-96e3-61794cd1ee61</Guid>
+    </COMReference>
+    <COMReference Include="{e6da930b-bba5-44df-ac6f-fe60c1eddec8}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>5</VersionMajor>
+      <Guid>e6da930b-bba5-44df-ac6f-fe60c1eddec8</Guid>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Speech" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\download (1).jpg" />
+    <Resource Include="Images\download(2).jpg" />
+    <Resource Include="Images\images (1).jpg" />
+    <Resource Include="Images\images.jpg" />
+    <Resource Include="Images\images.png" />
+    <Resource Include="Images\Mafia.jpg" />
+    <Resource Include="Images\StartPage.png" />
+    <Resource Include="night3.png" />
+    <Resource Include="village2.jpg" />
+    <Resource Include="village3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Doctor-healing-.wav">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </None>
+    <None Update="download %281%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="healing.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="images %281%29.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="mixkit-horror-ambience-2482.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="mixkit-night-crickets-near-the-swamp-1782.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Music\15-Forests-of-Endor.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Music\16-The-Dark-Emperor %281%29.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Music\17-Victory-Celebration.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Music\19-Game-Over.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Music\Doctor-healing-.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Music\healing.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Music\mixkit-horror-ambience-2482.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Music\mixkit-night-crickets-near-the-swamp-1782.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Music\price-of-freedom-33106.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Music\rooster_crowing-7027.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Music\sword-taking-out-of-sheath-98778.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Music\The-Mafia-Won.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Music\Wilhelm-Scream.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="price-of-freedom-33106.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="rooster_crowing-7027.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="sword-taking-out-of-sheath-98778.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Wilhelm-Scream.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

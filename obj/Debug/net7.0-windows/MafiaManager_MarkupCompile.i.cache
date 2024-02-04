@@ -1,0 +1,20 @@
+﻿MafiaManager
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\dolap\OneDrive\Desktop\ComputerScience\Windows app Development\Final Project\MafiaManager\obj\Debug\net7.0-windows\
+MafiaManager
+none
+false
+TRACE;DEBUG;NET;NET7_0;NETCOREAPP
+C:\Users\dolap\OneDrive\Desktop\ComputerScience\Windows app Development\Final Project\MafiaManager\App.xaml
+7-1479326269
+
+13-1016970074
+200-288701669
+DayWindow.xaml;KillWindow.xaml;MafiaWinWindow.xaml;MainWindow.xaml;NightWindow.xaml;PlayerInfoWindow.xaml;TownWinWindow.xaml;
+
+False
+

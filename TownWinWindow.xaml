@@ -1,0 +1,16 @@
+﻿<Window x:Class="MafiaManager.TownWinWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MafiaManager"
+        mc:Ignorable="d"
+        Title="TownWinWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/village3.jpg"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Margin="280,354,0,0" TextWrapping="Wrap" Text="The townspeople win!" VerticalAlignment="Top" Height="35" Width="250" FontSize="24" Foreground="White" Background="#82000000" TextAlignment="Center"/>
+
+    </Grid>
+</Window>
